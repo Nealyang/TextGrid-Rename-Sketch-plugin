@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+    background: #fff;
+    /* Prevent the page to be scrollable */
+    overflow: hidden;
+
+    /* Force the default cursor, even on text */
+    cursor: default;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    /* Prevent the content from being selectionable */
+    user-select: none;
+}
+
+.index_header_container {
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, .75);
+    -webkit-transition: height .8s;
+    -moz-transition: height .8s;
+    -ms-transition: height .8s;
+    -o-transition: height .8s;
+    transition: height .8s;
+    margin-top: -22px;
+}
+
+.bg_img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.index_header_container p {
+    text-align: center;
+}
+
+.index_header_container p:first-child {
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+}
+
+.index_header_container p:last-child {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #dcdcdc;
+    letter-spacing: -0.34px;
+}
+
+.login_success_title {
+    font-family: PingFangSC-Semibold;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    display: none;
+}
+
+.list_container {
+    height: 438px;
+    display: none;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.list_container p{
+    height: 40px;
+    display: flex;
+    padding:0 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid thin #e4e4e4;
+    cursor: pointer;
+}
+.list_container span{
+    color: #6c6c6c;
+}
+.list_container img{
+    width: 17px;
+    height: 17px;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.list_container p:hover{
+    opacity:0.97;
+    background-color: rgba(74,144,226,.17);
+}
+
+.list_container p:hover img{
+    opacity: 1;
+}
+
+.login_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.login_button {
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.43px;
+    border: solid thin #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#4a90e2;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.36);
+    border-radius:6px;
+    width:200px;
+    height:56px;
+}
+
+.login_button:hover {
+    box-shadow: 2px 2px 5px #d1d1d1;
+}
+
+

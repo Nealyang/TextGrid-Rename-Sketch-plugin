@@ -1,0 +1,38 @@
+{
+  "name" : "Nealyang Example",
+  "identifier" : "com.sketchapp.rename",
+  "version" : "1.0",
+  "description" : "An example of a plugin with a floating panel.",
+  "author" : "Nealyang",
+  "commands" : [
+    {
+      "script" : "plugin.js",
+      "handlers": {
+        "run": "onRun"
+      },
+      "name" : "Nealyang Renames",
+      "identifier" : "com.sketchapp.rename.command"
+    },
+    {
+      "script":"plugin.js",
+      "handler":"clickFun",
+      "name":"test Click",
+      "identifier":"test click"
+    },
+    {
+      "script":"plugin.js",
+      "name":"监听Layer的click事件",
+      "handlers":{
+        "actions":{
+          "SelectionChanged.finish":"clickLayer"
+        }
+      },
+      "identifier":"handle click"
+    }
+  ],
+  "menu": {
+    "isRoot": false,
+    "items": ["com.sketchapp.rename.command","test click","handle click"],
+    "title":"TestGrid Rename Layers"
+  }
+}

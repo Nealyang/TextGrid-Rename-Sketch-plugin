@@ -1,0 +1,114 @@
+body{
+    background-color: #fff;
+}
+.header_container{
+    height: 120px;
+    background: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_container input{
+    background:#ffffff;
+    border:1px solid #e6e5e5;
+    border-radius:4px;
+    width:438px;
+    height:34px;
+    padding: 0 14px;
+    font-size:14px;
+}
+ ::-webkit-input-placeholder {
+     font-family:PingFangSC-Regular;
+     font-size:14px;
+     color:#9b9b9b;
+     letter-spacing:0;
+ }
+.icon_search_local{
+    color: #4a4a4a;
+    position: absolute;
+    right:23px;
+    line-height: 34px;
+    font-size: 22px!important;
+}
+.buttons_contaienr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    width:466px;
+}
+.show_unused{
+    color: #fff;
+}
+.show_unused input{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.buttons_div{
+    display: inline-block;
+}
+.buttons_contaienr .iconfont{
+    color: #a8a8a8;
+    margin-left:8px;
+    cursor: pointer;
+}
+.buttons_contaienr .iconfont:hover{
+    color: #fff;
+}
+.icon_shezhi_local{
+    margin-left: 16px;
+}
+.icon_selected{
+    color: #fff!important;
+}
+.content_container{
+    height:425px;
+    overflow-y: scroll;
+}
+.content_container p{
+    padding:0 15px 0 23px ;
+    border-bottom: solid thin #f0f0f0;
+    height:38px;
+    width: 461px;
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color:#3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.content_container span:last-child{
+    display: inline-block;
+    background:#e4e4e4;
+    width:19px;
+    height:19px;
+    border-radius:100%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 19px;
+    opacity: .7;
+    color: #fff;
+}
+.content_container p:hover{
+    background-color: #f6f6f6;
+}
+.item_has_selected{
+    background-color: rgba(74,144,226,.17);
+}
+.item_has_selected span:last-child{
+    background:#4a90e2;
+}
+
+.bottom_container{
+    height: 30px;
+    font-family:PingFangSC-Regular;
+    font-size:12px;
+    color:#d0d0d0;
+    text-align:center;
+    line-height: 30px;
+}
