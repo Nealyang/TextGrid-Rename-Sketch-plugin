@@ -7,17 +7,12 @@
   "commands" : [
     {
       "script" : "plugin.js",
+      "shortcut" : "option command R",
       "handlers": {
         "run": "onRun"
       },
-      "name" : "Nealyang Renames",
+      "name" : "TextGrid Renames",
       "identifier" : "com.sketchapp.rename.command"
-    },
-    {
-      "script":"plugin.js",
-      "handler":"clickFun",
-      "name":"test Click",
-      "identifier":"test click"
     },
     {
       "script":"plugin.js",
@@ -32,7 +27,7 @@
   ],
   "menu": {
     "isRoot": false,
-    "items": ["com.sketchapp.rename.command","test click","handle click"],
-    "title":"TestGrid Rename Layers"
+    "items": ["com.sketchapp.rename.command"],
+    "title":"TextGrid Rename Layers"
   }
 }

@@ -5,25 +5,13 @@
  * @version 1.0.0
  *
  */
-// document.addEventListener("contextmenu", function(e) {
-//   e.preventDefault();
-// });
-
-function test(value) {
-    console.log(1111)
-    console.log(value)
+if(!canDebug()){
+    document.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+    });
 }
 
 $(document).ready(function () {
-    function updateHash(hash) {
-        //We can send a simple command or a command with a parameter and value
-        //You can extend this function to send multiple values. script.js will parse
-        //all the values and expose them in the hash object so you can use them
-        //new Date is there just to make sure the url is alwasy different
-        window.location.hash = hash + '&date=' + new Date().getTime();
-        console.log(window.location)
-        return false
-    }
     
     const WINDOW_HEIGHT = window.outerHeight - 22;//578
     var $loadingContainer = $('.loading_container'),
@@ -32,13 +20,6 @@ $(document).ready(function () {
         $loginButtonContainer = $('.login_button_container'),
         $listContainer = $('.list_container');
 
-    function showLoading() {
-        $loadingContainer.css({'display': 'flex'});
-    }
-
-    function hidenLoading() {
-        $loadingContainer.css({'display': 'none'})
-    }
 
     function loginSuccessStyleChange() {
         $loginHeaderContainer.css({'height': '140px'});
@@ -67,12 +48,12 @@ $(document).ready(function () {
      */
 
     function getProjectList() {
-        showLoading();
         $.ajax({
-            url:'https://textgrid.develenv.com/tg/getprolist',
+            url:'https://textgrid.develenv.com/api/tg/getprolist',
             method:"GET",
             success:function (data) {
                 hidenLoading();
+                loginSuccessStyleChange();
                 typeof data === 'string'?data = JSON.parse(data):data = data;
                 if(data.code == 200){
                     renderList(data.data);
@@ -80,46 +61,20 @@ $(document).ready(function () {
             },
             error:function (data) {
                 hidenLoading();
-                console.log(data)
+                loginSuccessStyleChange();
+                showNotification('请求出错:'+data);
             }
         })
     }
-
-    /**
-     * 登录
-     */
-    function login() {
-        // showLoading();
-        // $.ajax({
-        //     url:'https://textgrid.develenv.com/tg/login',
-        //     type:"get",
-        //     dataType:'json',
-        //     success:function (data) {
-        //         hidenLoading();
-        //         if(data.data.redirectUrl){
-        //             // window.location.href=data.data.redirectUrl
-        //             loginSuccessStyleChange();
-        //             getProjectList();
-        //         }
-        //     },
-        //     error:function (data) {
-        //         hidenLoading();
-        //         console.log(data,'error')
-        //     }
-        // })
-        var tem = {
-            a:'lala',
-            name:'Nealyang'
-        }
-        updateHash('Nealyang='+JSON.stringify(tem))
+    if($listContainer.children()){
+        showLoading();
+        setTimeout(function () {
+            getProjectList();
+        },500);
     }
-
-
-    $('.login_button').bind('click', login)
-        .parent().css({'height': WINDOW_HEIGHT - 222 + 'px'});
 
     $listContainer.on('click','p',function () {
         window.location.href = './list.html?token='+$(this).attr('token')+'&id='+$(this).attr('id')
-    })
+    });
 
 });

@@ -1,18 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
-body{font-size:15px;}
-img{border:none;}
-li{list-style:none;}
-input,select,textarea{outline:none;border:none; background:none;}
-textarea{resize:none;}
-a{text-decoration:none; color:#656565;}
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+input, select, textarea {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+    color: #656565;
+}
 
 /*清浮动*/
-.clearfix:after{content:"";display:block;clear:both;}
-.clearfix{zoom:1;}
-.fl{float:left;}
-.fr{float:right;}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
 
 .loading_container {
     position: fixed;
@@ -23,7 +60,7 @@ a{text-decoration:none; color:#656565;}
     width: 100%;
     z-index: 2;
     top: 0;
-    display: none;
+    display: flex;
 }
 
 .load4 .loader {
@@ -91,5 +128,41 @@ a{text-decoration:none; color:#656565;}
     }
     87.5% {
         box-shadow: 0em -3em 0em 0em #4e92df, 2em -2em 0 -0.5em #4e92df, 3em 0em 0 -0.5em #4e92df, 2em 2em 0 -0.5em #4e92df, 0em 3em 0 -0.5em #4e92df, -2em 2em 0 0em #4e92df, -3em 0em 0 0em #4e92df, -2em -2em 0 0.2em #4e92df;
+    }
+}
+
+.notification-div {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    -webkit-animation: showNotification .6s infinite ;
+    -o-animation: showNotification .6s infinite ;
+    animation: showNotification .6s infinite ;
+    animation-iteration-count: 1;
+}
+
+.notification-div span {
+    display: inline-block;
+    background-color: #F5A623;
+    color: #fff;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #ddd;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+@keyframes showNotification {
+    from {
+        opacity: 0;
+        bottom: 0;
+    }
+    to {
+        opacity: 1;
+        bottom: 20px;
     }
 }
