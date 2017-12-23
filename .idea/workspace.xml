@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f533d5-000a-4834-8a2e-8ec4906ce794" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Contents/Resources/assets/css/list.css" afterPath="$PROJECT_DIR$/Contents/Resources/assets/css/list.css" />
-      <change beforePath="$PROJECT_DIR$/Contents/Resources/assets/css/public.css" afterPath="$PROJECT_DIR$/Contents/Resources/assets/css/public.css" />
-      <change beforePath="$PROJECT_DIR$/Contents/Resources/assets/js/index.js" afterPath="$PROJECT_DIR$/Contents/Resources/assets/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/Contents/Resources/assets/js/list.js" afterPath="$PROJECT_DIR$/Contents/Resources/assets/js/list.js" />
-      <change beforePath="$PROJECT_DIR$/Contents/Resources/index.html" afterPath="$PROJECT_DIR$/Contents/Resources/index.html" />
-      <change beforePath="$PROJECT_DIR$/Contents/Resources/list.html" afterPath="$PROJECT_DIR$/Contents/Resources/list.html" />
-      <change beforePath="$PROJECT_DIR$/Contents/Sketch/manifest.json" afterPath="$PROJECT_DIR$/Contents/Sketch/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/Contents/Sketch/plugin.js" afterPath="$PROJECT_DIR$/Contents/Sketch/plugin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Contents/Resources/assets/imgs/ic_arrow_drop_down.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Contents/Resources/assets/js/util.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -236,12 +228,20 @@
       <workItem from="1513662868937" duration="9508000" />
       <workItem from="1513676426247" duration="88000" />
       <workItem from="1513676566216" duration="5000" />
-      <workItem from="1514005048531" duration="44000" />
+      <workItem from="1514005048531" duration="108000" />
     </task>
+    <task id="LOCAL-00001" summary="plugin">
+      <created>1514005101613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514005101613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42627000" />
+    <option name="totallyTimeSpent" value="42691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="825" extended-state="6" />
@@ -288,6 +288,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
