@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     function getProjectList() {
         $.ajax({
-            url:'https://textgrid.develenv.com/api/tg/getprolist',
+            url:'https://nealyang.com/getprolist',
             method:"GET",
             success:function (data) {
                 hidenLoading();

@@ -142,7 +142,7 @@ $(document).ready(function () {
     function getData(reqData) {
         showLoading();
         $.ajax({
-            url: 'https://textgrid.develenv.com/api/tg/getkvlist',
+            url: 'https://nealyang.com/getkvlist',
             type: 'get',
             data: reqData,
             success: function (data) {

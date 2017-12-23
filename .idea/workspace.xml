@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f533d5-000a-4834-8a2e-8ec4906ce794" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugin.gif" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Contents/Resources/assets/js/index.js" afterPath="$PROJECT_DIR$/Contents/Resources/assets/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/Contents/Resources/assets/js/list.js" afterPath="$PROJECT_DIR$/Contents/Resources/assets/js/list.js" />
+      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,15 +40,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/js/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-201">
+              <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,12 +128,12 @@
         <option value="$PROJECT_DIR$/Contents/Resources/list.html" />
         <option value="$PROJECT_DIR$/Contents/Resources/assets/css/list.css" />
         <option value="$PROJECT_DIR$/Contents/Resources/assets/css/index.css" />
-        <option value="$PROJECT_DIR$/Contents/Resources/assets/js/list.js" />
         <option value="$PROJECT_DIR$/Contents/Resources/index.html" />
-        <option value="$PROJECT_DIR$/Contents/Resources/assets/js/index.js" />
         <option value="$PROJECT_DIR$/Contents/Sketch/manifest.json" />
         <option value="$PROJECT_DIR$/Contents/Sketch/plugin.js" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/Contents/Resources/assets/js/index.js" />
+        <option value="$PROJECT_DIR$/Contents/Resources/assets/js/list.js" />
       </list>
     </option>
   </component>
@@ -155,6 +178,27 @@
               <item name="rename-plugin.sketchplugin" type="462c0819:PsiDirectoryNode" />
               <item name="Contents" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rename-plugin.sketchplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rename-plugin.sketchplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Contents" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rename-plugin.sketchplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rename-plugin.sketchplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Contents" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rename-plugin.sketchplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rename-plugin.sketchplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Contents" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +215,11 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Contents" />
       <recent name="$PROJECT_DIR$/Contents/Sketch" />
       <recent name="$PROJECT_DIR$/Contents/Resources/assets/imgs" />
     </key>
@@ -215,7 +263,7 @@
       <workItem from="1513662868937" duration="9508000" />
       <workItem from="1513676426247" duration="88000" />
       <workItem from="1513676566216" duration="5000" />
-      <workItem from="1514005048531" duration="329000" />
+      <workItem from="1514005048531" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="plugin">
       <created>1514005101613</created>
@@ -224,11 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514005101613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="plugin">
+      <created>1514005384899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514005384899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42912000" />
+    <option name="totallyTimeSpent" value="43257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="825" extended-state="6" />
@@ -557,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/js/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -600,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contents/Sketch/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -634,11 +675,27 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contents/Resources/assets/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
